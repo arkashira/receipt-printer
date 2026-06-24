@@ -3,9 +3,9 @@ requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
 
 [tool.poetry]
-name = "receipt-printer"
+name = "pdf-converter"
 version = "1.0.0"
-description = "A simple receipt printer"
+description = "PDF to Command Stream Converter"
 
 [tool.poetry.dependencies]
 python = "^3.8"
