@@ -5,7 +5,7 @@ build-backend = "poetry.masonry.api"
 [tool.poetry]
 name = "pdf-converter"
 version = "1.0.0"
-description = "PDF to Command Stream Converter"
+description = "A PDF converter for receipts"
 
 [tool.poetry.dependencies]
 python = "^3.8"
