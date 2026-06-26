@@ -1,14 +1,12 @@
+[project]
+name = "receipt-printer"
+version = "0.1.0"
+description = "A tiny testing framework for thermal receipt printers."
+authors = [{name = "Axentx OS"}]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
 [build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
-
-[tool.poetry]
-name = "pdf-converter"
-version = "1.0.0"
-description = "A PDF converter for receipts"
-
-[tool.poetry.dependencies]
-python = "^3.8"
-
-[tool.poetry.dev-dependencies]
-pytest = "^6.2.5"
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
